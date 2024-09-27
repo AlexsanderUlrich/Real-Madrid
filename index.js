@@ -20,5 +20,5 @@ codigo.addEventListener('input', verificarCampos);
 
 
 botao.addEventListener('click', function() {
-    window.location.href = 'http://127.0.0.1:5500/resultado.html';
+    window.location.href = '/resultado.html';
 });
