@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: darkgoldenrod;    
+}
+
+section {
+    display: flex;
+    place-content: center;
+    gap: 5%;     
+}
+
+footer{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;    
+    margin-top: 10px;
+    
+}
+
+footer input {
+    width: 50%;
+    border-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer button{
+    background-color: green;
+    color: azure;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+footer button:disabled{
+    background-color: gray;
+    color: azure;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.imagemTaca{
+    display: flex;    
+    width: 15%;
+}
+.imagemTime{
+    display: flex;    
+    width: 50%;
+    border-radius: 47%;
+}

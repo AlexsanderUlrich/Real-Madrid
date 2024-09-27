@@ -1,0 +1,25 @@
+body{
+    margin: 0; /* Remove margens padrão */
+    height: 100vh; /* Altura do body igual à altura da viewport */    
+    background-image: "papai.jpg"; /* URL da imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o body */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+
+    display: flex;
+    flex-direction: column;    
+    place-items: center;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 80px;
+    opacity: 0.7;
+}
+
+h2 {
+    color:black;
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+    opacity: 0.5;
+}
