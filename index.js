@@ -33,6 +33,6 @@ const jogadores = [
 var escolhido = Math.floor(Math.random() * (jogadores.length));
 
 botao.addEventListener('click', function() {
-    window.location.href = escolhido;
-    console.log(escolhido)
+    window.location.href = jogadores[escolhido];
+    console.log(jogadores[escolhido])
 });
