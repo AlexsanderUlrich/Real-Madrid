@@ -30,9 +30,10 @@ const jogadores = [
     "zidane.html"
 ];
 
-var escolhido = Math.floor(Math.random() * (jogadores.length));
+
 
 botao.addEventListener('click', function() {
+    var escolhido = Math.floor(Math.random() * (jogadores.length));
     window.location.href = jogadores[escolhido];
     console.log(jogadores[escolhido])
 });
