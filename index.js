@@ -19,15 +19,15 @@ agencia.addEventListener('input', verificarCampos);
 codigo.addEventListener('input', verificarCampos);
 
 const jogadores = [
-    "/paginas/cris.html", 
-    "/paginas/beckham.html", 
-    "/paginas/benzema.html", 
-    "/paginas/kaka.html", 
-    "/paginas/ozil.html", 
-    "/paginas/roberto.html", 
-    "/paginas/ronaldo.html", 
-    "/paginas/vini.html", 
-    "/paginas/zidane.html"
+    "cris.html", 
+    "beckham.html", 
+    "benzema.html", 
+    "kaka.html", 
+    "ozil.html", 
+    "roberto.html", 
+    "ronaldo.html", 
+    "vini.html", 
+    "zidane.html"
 ];
 
 var escolhido = Math.floor(Math.random() * (jogadores.length));
