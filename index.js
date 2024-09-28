@@ -22,5 +22,5 @@ const jogadores = ["cris.html", "beckham.html", "benzema.html", "kaka.html", "oz
 var escolhido = Math.floor(Math.random() * (jogadores.length));
 
 botao.addEventListener('click', function() {
-    window.location.href = escolhido;
+    window.location.href = "paginas/"+escolhido;
 });
